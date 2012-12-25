@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="FileSystemMonitor.Server.NTService.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="IpcChannelName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">FileSystemMonitor</Value>
+    </Setting>
+    <Setting Name="IpcChannelPort" Type="System.String" Scope="User">
+      <Value Profile="(Default)">FileSystemMonitor:9090</Value>
+    </Setting>
+    <Setting Name="ServerObjectUri" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Server.rem</Value>
+    </Setting>
+    <Setting Name="DBConnectionString" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Provider=Microsoft.Jet.OLEDB.4.0; Data source=C:\Program Files\File System Monitor\fsmon.mdb;</Value>
+    </Setting>
+    <Setting Name="ClientConnectionLimit" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">10</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
